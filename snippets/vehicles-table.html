@@ -1,0 +1,323 @@
+<style>
+.vehicle-table-wrap{
+  font-family:"Lato",sans-serif;
+  font-size:12px;
+  color:#222;
+
+  width:100%;
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+}
+
+.vehicle-table{
+  width:100%;
+  min-width:900px;
+  border-collapse:collapse;
+  background:#fff;
+}
+
+.vehicle-table th,
+.vehicle-table td{
+  border:1px solid #d9d9d9;
+  padding:8px 10px;
+  vertical-align:middle;
+}
+
+.vehicle-table th{
+  background:#f5f5f5;
+  font-weight:700;
+}
+
+.vehicle-table tbody tr:nth-child(even){
+  background:#fafafa;
+}
+
+.vehicle-preview{
+  width:72px;
+  text-align:center;
+}
+
+.vehicle-preview img{
+  width:64px;
+  height:40px;
+  object-fit:cover;
+  border:1px solid #ccc;
+  border-radius:4px;
+  background:#fff;
+  cursor:pointer;
+  max-width:100%;
+}
+
+.vehicle-preview a:hover img{
+  border-color:#4a90e2;
+}
+
+.vehicle-name{
+  font-weight:700;
+}
+
+.num{
+  text-align:center;
+}
+
+.skin-name{
+  white-space:nowrap;
+}
+
+@media (max-width:700px){
+
+  .vehicle-table-wrap{
+    font-size:11px;
+  }
+
+  .vehicle-table{
+    min-width:760px;
+  }
+
+  .vehicle-preview img{
+    width:52px;
+    height:34px;
+  }
+
+}
+</style>
+
+<div class="vehicle-table-wrap">
+  <table class="vehicle-table">
+    <thead>
+      <tr>
+        <th>Preview</th>
+        <th>Vehicle Name</th>
+        <th>Required Rank</th>
+        <th>Top Speed</th>
+        <th>Horse Power</th>
+        <th>Seats</th>
+        <th>Item Load</th>
+        <th>Virtual Load</th>
+        <th>Fuel Capacity</th>
+        <th>Skin Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="vehicle-preview">
+          <a href="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/quad-large.jpg" target="_blank">
+            <img src="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/quad-thumb.jpg" alt="Quad Bike - HATO">
+          </a>
+        </td>
+        <td class="vehicle-name">Quad Bike</td>
+        <td class="num">ISU</td>
+        <td class="num">80 km/h</td>
+        <td class="num">25 bhp</td>
+        <td class="num">2</td>
+        <td class="num">27 kg</td>
+        <td class="num">5</td>
+        <td class="num">10 l</td>
+        <td class="skin-name">HATO</td>
+      </tr>
+
+      <tr>
+        <td class="vehicle-preview">
+          <a href="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/truck-large.jpg" target="_blank">
+            <img src="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/truck-thumb.jpg" alt="Truck - HATO">
+          </a>
+        </td>
+        <td class="vehicle-name">Truck</td>
+        <td class="num">ISU</td>
+        <td class="num">115 km/h</td>
+        <td class="num">170 bhp</td>
+        <td class="num">13</td>
+        <td class="num">136 kg</td>
+        <td class="num">150</td>
+        <td class="num">18 l</td>
+        <td class="skin-name">HATO</td>
+      </tr>
+
+      <tr>
+        <td class="vehicle-preview">
+          <a href="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/van-large.jpg" target="_blank">
+            <img src="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/van-thumb.jpg" alt="Van (Services) - HATO">
+          </a>
+        </td>
+        <td class="vehicle-name">Van (Services)</td>
+        <td class="num">ISU</td>
+        <td class="num">155 km/h</td>
+        <td class="num">266 bhp</td>
+        <td class="num">2</td>
+        <td class="num">136 kg</td>
+        <td class="num">150</td>
+        <td class="num">18 l</td>
+        <td class="skin-name">HATO</td>
+      </tr>
+
+      <tr>
+        <td class="vehicle-preview">
+          <a href="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/offroad-large.jpg" target="_blank">
+            <img src="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/offroad-thumb.jpg" alt="Offroad (Services) - HATO">
+          </a>
+        </td>
+        <td class="vehicle-name">Offroad (Services)</td>
+        <td class="num">J/O</td>
+        <td class="num">200 km/h</td>
+        <td class="num">150 bhp</td>
+        <td class="num">4</td>
+        <td class="num">113 kg</td>
+        <td class="num">50</td>
+        <td class="num">16 l</td>
+        <td class="skin-name">HATO</td>
+      </tr>
+
+      <tr>
+        <td class="vehicle-preview">
+          <a href="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/mb4wd-large.jpg" target="_blank">
+            <img src="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/mb4wd-thumb.jpg" alt="MB 4WD - HATO">
+          </a>
+        </td>
+        <td class="vehicle-name">MB 4WD</td>
+        <td class="num">J/O</td>
+        <td class="num">195 km/h</td>
+        <td class="num">209 bhp</td>
+        <td class="num">4</td>
+        <td class="num">82 kg</td>
+        <td class="num">35</td>
+        <td class="num">16 l</td>
+        <td class="skin-name">HATO</td>
+      </tr>
+
+      <tr>
+        <td class="vehicle-preview">
+          <a href="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/suv-large.jpg" target="_blank">
+            <img src="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/suv-thumb.jpg" alt="SUV - HATO">
+          </a>
+        </td>
+        <td class="vehicle-name">SUV</td>
+        <td class="num">J/O</td>
+        <td class="num">249 km/h</td>
+        <td class="num">408 bhp</td>
+        <td class="num">4</td>
+        <td class="num">91 kg</td>
+        <td class="num">25</td>
+        <td class="num">16 l</td>
+        <td class="skin-name">HATO</td>
+      </tr>
+
+      <tr>
+        <td class="vehicle-preview">
+          <a href="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/hatchback-large.jpg" target="_blank">
+            <img src="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/hatchback-thumb.jpg" alt="Hatchback - HATO">
+          </a>
+        </td>
+        <td class="vehicle-name">Hatchback</td>
+        <td class="num">J/O</td>
+        <td class="num">190 km/h</td>
+        <td class="num">103 bhp</td>
+        <td class="num">4</td>
+        <td class="num">91 kg</td>
+        <td class="num">15</td>
+        <td class="num">16 l</td>
+        <td class="skin-name">HATO</td>
+      </tr>
+
+      <tr>
+        <td class="vehicle-preview">
+          <a href="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/offroad-covered-large.jpg" target="_blank">
+            <img src="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/offroad-covered-thumb.jpg" alt="Offroad (Covered) - HATO (Covered)">
+          </a>
+        </td>
+        <td class="vehicle-name" rowspan="2">Offroad (Covered)</td>
+        <td class="num" rowspan="2">T/O</td>
+        <td class="num" rowspan="2">200 km/h</td>
+        <td class="num" rowspan="2">150 bhp</td>
+        <td class="num" rowspan="2">6</td>
+        <td class="num" rowspan="2">113 kg</td>
+        <td class="num" rowspan="2">75</td>
+        <td class="num" rowspan="2">16 l</td>
+        <td class="skin-name">HATO (Covered)</td>
+      </tr>
+      <tr>
+        <td class="vehicle-preview">
+          <a href="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/offroad-covered-comms-large.jpg" target="_blank">
+            <img src="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/offroad-covered-comms-thumb.jpg" alt="Offroad (Covered) - HATO (Covered, Comms)">
+          </a>
+        </td>
+        <td class="skin-name">HATO (Covered, Comms)</td>
+      </tr>
+
+      <tr>
+        <td class="vehicle-preview">
+          <a href="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/fuel-truck-large.jpg" target="_blank">
+            <img src="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/fuel-truck-thumb.jpg" alt="Fuel Truck - HATO">
+          </a>
+        </td>
+        <td class="vehicle-name">Fuel Truck</td>
+        <td class="num">T/O</td>
+        <td class="num">115 km/h</td>
+        <td class="num">170 bhp</td>
+        <td class="num">3</td>
+        <td class="num">136 kg</td>
+        <td class="num">250</td>
+        <td class="num">18 l</td>
+        <td class="skin-name">HATO</td>
+      </tr>
+
+      <tr>
+        <td class="vehicle-preview">
+          <a href="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/zamak-repair-large.jpg" target="_blank">
+            <img src="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/zamak-repair-thumb.jpg" alt="Zamak Repair - HATO">
+          </a>
+        </td>
+        <td class="vehicle-name">Zamak Repair</td>
+        <td class="num">T/O</td>
+        <td class="num">80 km/h</td>
+        <td class="num">206 bhp</td>
+        <td class="num">3</td>
+        <td class="num">136 kg</td>
+        <td class="num">400</td>
+        <td class="num">28 l</td>
+        <td class="skin-name">HATO</td>
+      </tr>
+
+      <tr>
+        <td class="vehicle-preview">
+          <a href="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/hemmt-flatbed-large.jpg" target="_blank">
+            <img src="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/hemmt-flatbed-thumb.jpg" alt="HEMMT Flatbed - HATO">
+          </a>
+        </td>
+        <td class="vehicle-name">HEMMT Flatbed</td>
+        <td class="num">T/O</td>
+        <td class="num">80 km/h</td>
+        <td class="num">450 bhp</td>
+        <td class="num">2</td>
+        <td class="num">136 kg</td>
+        <td class="num">0</td>
+        <td class="num">28 l</td>
+        <td class="skin-name">HATO</td>
+      </tr>
+
+      <tr>
+        <td class="vehicle-preview">
+          <a href="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/tempest-repair-construction-large.jpg" target="_blank">
+            <img src="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/tempest-repair-construction-thumb.jpg" alt="Tempest Repair - HATO (Construction)">
+          </a>
+        </td>
+        <td class="vehicle-name" rowspan="2">Tempest Repair</td>
+        <td class="num" rowspan="2">T/O</td>
+        <td class="num" rowspan="2">90 km/h</td>
+        <td class="num" rowspan="2">180 bhp</td>
+        <td class="num" rowspan="2">2</td>
+        <td class="num" rowspan="2">136 kg</td>
+        <td class="num" rowspan="2">500</td>
+        <td class="num" rowspan="2">28 l</td>
+        <td class="skin-name">HATO (Construction)</td>
+      </tr>
+      <tr>
+        <td class="vehicle-preview">
+          <a href="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/tempest-repair-large.jpg" target="_blank">
+            <img src="https://raw.githubusercontent.com/ReallyMartin/GTA-HATO-Handbook-Assets/refs/heads/main/images/vehicles/tempest-repair-thumb.jpg" alt="Offroad (Covered) - HATO">
+          </a>
+        </td>
+        <td class="skin-name">HATO</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
