@@ -2,6 +2,8 @@
 
 Image assets and HTML snippets for the **Highways Agency (HATO)** faction handbook, part of the [Grand Theft Arma](https://grandtheftarma.com) community.
 
+### **[View the HATO Handbook](https://sites.google.com/grandtheftarma.com/hato-handbook-gta)**
+
 ## Repository Structure
 
 ```
